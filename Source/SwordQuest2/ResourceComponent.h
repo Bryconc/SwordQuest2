@@ -28,5 +28,8 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
         USoundBase* AgroAudio;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        float AttackDistance;
 	
 };
