@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Components/ActorComponent.h"
+#include "Components/WidgetComponent.h"
 #include "ResourceComponent.generated.h"
 
 
@@ -31,5 +32,17 @@ public:
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
         float AttackDistance;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        float MinimumAttackDamage;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        float MaximumAttackDamage;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        float Health;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        UWidget HealthWidget;
 	
 };

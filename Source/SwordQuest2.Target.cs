@@ -20,6 +20,6 @@ public class SwordQuest2Target : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "SwordQuest2" } );
+		OutExtraModuleNames.AddRange( new string[] { "SwordQuest2", "UMG" } );
 	}
 }
