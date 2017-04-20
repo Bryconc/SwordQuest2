@@ -28,6 +28,9 @@ public:
         UAnimMontage* AttackAnimation;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        UAnimMontage* DeathAnimation;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
         USoundBase* AgroAudio;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
@@ -43,6 +46,12 @@ public:
         float Health;
 
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
-        UWidget HealthWidget;
+        UWidgetComponent* HealthWidget;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        UChildActorComponent* Weapon1;
+
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Resources)
+        UChildActorComponent* Weapon2;
 	
 };

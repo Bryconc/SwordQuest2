@@ -21,5 +21,5 @@ public class SwordQuest2Target : TargetRules
 		)
 	{
 		OutExtraModuleNames.AddRange( new string[] { "SwordQuest2", "UMG" } );
-	}
+    }
 }
